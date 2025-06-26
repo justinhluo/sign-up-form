@@ -82,9 +82,11 @@ label {
 .header{
     
     padding: 30px;
+    padding-top: 100px;
     font-size: 1.4rem;
-    width: 100%;
-    margin-top: 100px;
+    width: 20vw;
+    /* margin-top: 100px; */
+
       
 }
 
@@ -135,8 +137,12 @@ button {
     
 }
 
-input:valid:focus{
+input:focus{
     box-shadow: 5px 5px 10px rgb(77, 76, 76);
+}
+
+input:valid:focus{
+    
     outline:2px solid #596D48;
 }
 
