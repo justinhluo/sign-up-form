@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up now!</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="logo-box">
+                <div class="logo">
+                    <div class="logo-image">
+                        <img src="odin.png" alt="logo" height="150px" width="auto" >
+                    </div>
+                    <div class="logo-name">
+                        ODIN
+                    </div>
+                </div>
+            </div>
+            <div class="photo-credits">
+                Photo by&nbsp;<a href="https://unsplash.com/@kovah">Kevin Woblick</a>
+            </div>
+        </div>
+            
+        
+        <div class="right">
+            <div class="header"> 
+                <p>This is not a real online service! This is cirriculum from The Odin Project, where I learned how to set up a <em>form.</em> Sign up <em>now</em> to get started.</p>
+                <br>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            
+            
+            <div class="body">
+                <div class="form-header">Sign up below!</div>
+                <form action="">
+                    <div class="form">
+                        <div class="form-left">
+                            <p>
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" required>
+                            </p>
+                            <p>
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" required>
+                            </p>
+                            <p>
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" required>
+                            </p>
+                        
+                        </div>
+                        <div class="form-right">
+                            <p>
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" required>
+                            </p>
+                            <p>
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" pattern="\d{10}" required>
+                            </p>
+                            <p>
+                                <label for="confrim_password">CONFIRM PASSWORD</label>
+                                <input type="password" id="confrim_password" required>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="footer">
+                <button type="submit">Create Account</button>
+                <div class="log-in">Already have an account? <a href="#">Log in</a></div>
+            </div>
+
+        </form>
+        </div>
+</body>
+</html>
